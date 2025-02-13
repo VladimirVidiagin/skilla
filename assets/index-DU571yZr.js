@@ -162,7 +162,6 @@ Error generating stack: `+l.message+`
   box-shadow: 0px 4px 5px 0px #e9edf3;
 `,Zp=St.div`
   padding: 0 40px;
-  font-weight: 500;
   margin-bottom: 20px;
 `,Vp=St.div`
   display: flex;
