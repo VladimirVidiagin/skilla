@@ -31,4 +31,4 @@ npm run deploy
 Адреса:
 
 - [Github Pages](https://vladimirvidiagin.github.io/skilla/).
-- [Локальная версия сайта (во время разработки)](http://localhost:5173/).
+- [Локальная версия сайта (во время разработки)](http://localhost:5173/skilla/).

@@ -116,7 +116,7 @@ export const callsColumns: Column[] = [
   {
     title: "Длительность",
     data_field: "duration",
-    width: 352,
+    width: 354,
     right_align: true,
     render: (duration: number) => secondsToString(duration),
     replace_on_hover: true,
