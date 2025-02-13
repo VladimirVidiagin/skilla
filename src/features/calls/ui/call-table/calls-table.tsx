@@ -147,7 +147,6 @@ const TableContainer = styled.div`
 
 const TableHeader = styled.div`
   padding: 0 40px;
-  font-weight: 500;
   margin-bottom: 20px;
 `;
 
