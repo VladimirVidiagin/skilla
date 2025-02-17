@@ -118,7 +118,9 @@ export const callsColumns: Column[] = [
     data_field: "duration",
     width: 354,
     right_align: true,
-    render: (duration: number) => secondsToString(duration),
+    render: (duration: number, _, record: Call) => {
+      return record?.record ? secondsToString(duration) : null;
+    },
     replace_on_hover: true,
     sorter: true,
   },

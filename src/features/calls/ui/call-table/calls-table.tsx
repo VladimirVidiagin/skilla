@@ -109,9 +109,7 @@ export const CallsTable: React.FC<CallsTableProps> = ({
                           partnership_id={item.partnership_id}
                           duration={item.duration}
                         />
-                      ) : (
-                        <>{secondsToString(item.duration)}</>
-                      )
+                      ) : null
                     ) : column.render ? (
                       column.render(
                         item[column.data_field as keyof Call],
