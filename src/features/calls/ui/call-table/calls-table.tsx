@@ -4,7 +4,6 @@ import { Call } from "../../../../entities/call/types/call";
 import { Column } from "./calls-columns";
 import { groupCallsByDay } from "../../lib/group-calls-by-day";
 import { AudioPlayer } from "../../../../shared/atoms/audio-palyer/audio-player";
-import { secondsToString } from "../../../../shared/utils/seconds-to-string";
 import { ArrowUpIcon } from "../../../../shared/icons/arrow-up-icon";
 import { ArrowDownIcon } from "../../../../shared/icons/arrow-down-icon";
 import { formatSeparatorDate } from "../../lib/format-separator-date";
